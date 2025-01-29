@@ -1,0 +1,30 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ecf0f1;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item {
+    flex: 1 1 30%; /* 3 itens por linha em telas grandes */
+    margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .item {
+        flex: 1 1 45%; /* 2 itens por linha em telas médias */
+    }
+}
+
+@media (max-width: 500px) {
+    .item {
+        flex: 1 1 100%; /* 1 item por linha em telas pequenas */
+    }
+}
