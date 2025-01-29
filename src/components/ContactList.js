@@ -96,7 +96,7 @@ const ContactList = () => {
 
     return (
         <ListContainer>
-            <Header>Lista de Contatos</Header>
+            <Header>Lista de Contatos 📞</Header>
             {contacts.map((contact) => (
                 <ContactCard key={contact.id}>
                     {editingContact?.id === contact.id ? (
