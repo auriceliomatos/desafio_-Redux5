@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const FormContainer = styled.div`
     margin-bottom: 20px;
-    max-width: 600px; /* Limitar largura máxima */
+    max-width: 500px; /* Limitar largura máxima */
     margin: 0 auto; /* Centralizar */
     text-align: center;
 `;
@@ -22,7 +22,7 @@ const Select = styled.select`
     display: block;
     margin: 5px 0;
     padding: 10px;
-    width: 100%; /* Ajustar largura para 100% */
+    width: 40%; /* Ajustar largura para 100% */
 `;
 
 const AddButton = styled.button`
