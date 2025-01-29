@@ -1,5 +1,4 @@
 
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,18 +12,18 @@ body {
 }
 
 .item {
-    flex: 1 1 30%; /* 3 itens por linha em telas grandes */
+    flex: 1 1 30%; 
     margin: 10px;
 }
 
 @media (max-width: 800px) {
     .item {
-        flex: 1 1 45%; /* 2 itens por linha em telas médias */
+        flex: 1 1 45%; 
     }
 }
 
 @media (max-width: 500px) {
     .item {
-        flex: 1 1 100%; /* 1 item por linha em telas pequenas */
+        flex: 1 1 100%; 
     }
 }
